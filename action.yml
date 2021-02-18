@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'usedaforce learning'
+author: 'Paul Agoha'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    required: true
+    default: 'Jedi Power'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
